@@ -1,0 +1,84 @@
+*{
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    color: aliceblue;
+    
+}
+body{
+    background-image: url("../images/bg_blue.jfif");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+h1, h2, h3, p{
+    margin: 0;
+    padding: 0;
+}
+h1{
+    font-family: 'Roboto Slab', serif;
+    font-size: 36px;
+    font-style: bold;
+}
+p{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 18px;
+    line-height: 32px;
+}
+
+header{
+    position: sticky;
+    top: 19px;
+    background: #090e12;
+}
+header > ul{
+    height: 50px;
+    display: flex;
+    align-items: center;
+    font-size: larger;
+    justify-content: space-around;
+    
+}
+header > ul > li{
+    text-align: center;
+    padding: 5px 10px;
+}
+header > ul > li:hover{
+    background: rgb(104, 64, 150);
+}
+
+.cv{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.cv > h1{
+    padding: 10px 0;
+    margin: 20px 0;
+    text-align: center;
+}
+.videos{
+    max-width: 1000px;
+    min-width: 300px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.videos > div{
+    box-shadow: inset;
+}
+.videos p{
+    text-align: center;
+}
+footer{
+    margin-top: 20px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #000;
+}
+footer > p{
+    font-size: 15px;
+}

@@ -1,0 +1,92 @@
+*{
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    color: aliceblue;
+}
+body{
+    background-image: url("../images/bg_blue.jfif");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+h1, h2, h3, p{
+    margin: 0;
+    padding: 0;
+}
+h1{
+    font-family: 'Roboto Slab', serif;
+    font-size: 36px;
+    font-style: bold;
+}
+p{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 18px;
+    line-height: 32px;
+}
+
+header{
+    position: sticky;
+    top: 19px;
+    background: #090e12;
+}
+header > ul{
+    height: 50px;
+    display: flex;
+    align-items: center;
+    font-size: larger;
+    justify-content: space-around;
+    
+}
+header > ul > li{
+    text-align: center;
+    padding: 5px 10px;
+    color: aliceblue;
+}
+header > ul > li:hover{
+    background: rgb(104, 64, 150);
+}
+.tt{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.tt > h1{
+    text-align: center;
+    padding: 10px 0;
+    margin: 20px 0;
+}
+th, td{
+    text-align: center;
+    padding: 5px 10px;
+    border: 1px solid rgb(77, 73, 73);
+}
+table{
+    border: 2px solid rgb(77, 73, 73);
+    height: 400px;
+    max-width: 1000px;
+    min-width: 350px;
+}
+td{
+    background: rgb(119, 150, 46);
+}
+.day{
+    background: rgb(33, 8, 61);
+}
+.time{
+    background: rgb(7, 73, 64);
+}
+.dt{
+    background: rgb(5, 80, 5);
+}
+footer{
+    margin-top: 20px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #000;
+}
+footer > p{
+    font-size: 15px;
+}
