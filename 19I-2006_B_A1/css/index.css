@@ -10,26 +10,30 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
 }
-h1, h2, h3, p{
+h2{
     margin: 0;
     padding: 0;
 }
 h1{
-    font-family: 'Roboto Slab', serif;
-    font-size: 36px;
+    margin: 0;
+    padding: 0;
+    font-size: 50px;
     font-style: bold;
+    font-family: 'Roboto Slab', serif;
 }
 p{
-    font-family: 'Source Sans Pro', sans-serif;
+    margin: 0;
+    padding: 0;
     font-size: 18px;
     line-height: 32px;
+    font-family: 'Source Sans Pro', sans-serif;
 }
 /* a{
     color: #42b4d6;
-}
+} */
 a:hover{
     text-decoration: underline;
-} */
+} 
 header{
     position: sticky;
     top: 19px;
@@ -70,8 +74,8 @@ header > ul > li:hover{
     color: rgb(25, 198, 211)
 }
 .center > img{
-    width: 100px;
-    height: 100px;
+    width: 200px;
+    height: 200px;
     border-radius: 100%;
     border: 1px thick white;
 }
@@ -132,4 +136,22 @@ footer > p{
 }
 .projects img{
     width: 200px;
+}
+@media only screen and (max-width: 600px) {
+    p{
+        font-size: 14px;
+    }
+    h1{
+        font-size: 20px;
+    }
+    h2{
+        font-size: 18px;
+    }
+    h3{
+        font-size: 16px;
+    }
+    .center > img{
+        width: 100px;
+        height: 100px;
+    } 
 }

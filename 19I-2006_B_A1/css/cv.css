@@ -25,6 +25,10 @@ p{
     line-height: 32px;
 }
 
+a:hover{
+    text-decoration: underline;
+} 
+
 header{
     position: sticky;
     top: 19px;
@@ -66,7 +70,7 @@ header > ul > li:hover{
     align-items: center;
 }
 .videos > div{
-    box-shadow: inset;
+    margin: 5px 10px;
 }
 .videos p{
     text-align: center;
@@ -81,4 +85,18 @@ footer{
 }
 footer > p{
     font-size: 15px;
+}
+@media only screen and (max-width: 600px) {
+    p{
+        font-size: 14px;
+    }
+    h1{
+        font-size: 20px;
+    }
+    h2{
+        font-size: 18px;
+    }
+    h3{
+        font-size: 16px;
+    }
 }
